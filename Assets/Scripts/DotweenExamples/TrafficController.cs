@@ -15,7 +15,5 @@ public class TrafficController : MonoBehaviour
         traffic.Append(cars[1].transform.DOMoveX(0, 2));
         traffic.Join(cars[1].transform.DOMoveZ(-3, 2).SetDelay(0.5f));
         traffic.Append(cars[2].transform.DOMoveX(4, 2));
-
     }
-
 }
